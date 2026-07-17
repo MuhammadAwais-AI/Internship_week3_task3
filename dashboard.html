@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head> 
+<body>
+    <h1>Dashboard Page</h1>
+    <p>here are your model results:</p>
+    
+    <h3>Figure 1</h3>
+    <img src="{{ url_for('static', filename='fig_1.png) }}" width="600">
+
+    <h3>Figure 2</h3>
+    <img src="{{ url_for('static', filename='fig2.png) }}" width="600">
+    
+    <h3>Figure 3</h3>
+    <img src="{{ url_for('static', filename='fig_3.png) }}" width="600">
+
+    <br><br>
+    <a href="/">Back to Home</a> |
+    <a href="/predict">Go to Predict</a>
+</body>    
+</html>
