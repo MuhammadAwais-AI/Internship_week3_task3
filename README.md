@@ -48,7 +48,7 @@ uvicorn
 jinja2
 python-multipart
 ```
-## Project structure
+## 📁 Project structure
 .
 ├── week3.pca_analysis.ipynb   # Part 1: PCA + Model Retraining + Report
 ├── main.py                    # FastAPI app
@@ -64,12 +64,12 @@ python-multipart
 ├── requirements.txt
 └── README.md
 `
-## How to run 
+## 💻 How to run 
 Clone this repository 
 install dependencies
    pip install -r requirements.txt
 `
-## Author 
+## 🧑‍💻Author 
 Muhammad Awais khan 
 AI Engineer|📍 Peshawar, Pakistan
 ✉️ muhammadawaisaiengineer1@gmail.com
